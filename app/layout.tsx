@@ -30,14 +30,12 @@ export const metadata: Metadata = {
     description:
       "Building a symbiotic loop between computing interfaces and human abilities.",
     type: "website",
-    images: [{ url: "/og-v4.png", width: 1200, height: 630 }],
   },
   twitter: {
-    card: "summary_large_image",
+    card: "summary",
     title: "Symbiotic Interfaces Lab",
     description:
       "Building a symbiotic loop between computing interfaces and human abilities.",
-    images: ["/og-v4.png"],
   },
 };
 

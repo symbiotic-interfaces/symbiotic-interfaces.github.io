@@ -168,9 +168,10 @@ export default function Home() {
           </p>
           <p>
             We pursue this vision through electronic and mechanical systems
-            design, signal processing, machine learning, and psychophysical
-            methods. Grounded in HCI, our research intersects with somatosensory
-            neuroscience, cognitive science, and robotics.
+            design, signal processing, machine learning, interaction design,
+            and psychophysical methods. Grounded in HCI, our research spans
+            related areas including haptics, somatosensory neuroscience,
+            cognitive science, and robotics.
           </p>
           <aside className="lab-opening">
             <p>
