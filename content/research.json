@@ -1,0 +1,127 @@
+[
+  {
+    "year": 2026,
+    "title": "Myo Action: Accelerating Voluntary Actions via Electromyography and Muscle Stimulation",
+    "authors": "Yudai Tanaka, Che-Wei Hsu, Bruno Felalaga, and Pedro Lopes",
+    "venue": "In Proc. CHI 2026 (full paper)",
+    "topic": "EMG + muscle stimulation",
+    "description": "Myo Action detects the earliest muscle activity before visible movement begins, then uses electrical muscle stimulation to accelerate the action the user already intended. The system shortens reaction time while preserving voluntary control.",
+    "image": "/images/myo-action.png",
+    "alt": "Myo Action electromyography and muscle stimulation study",
+    "url": "https://dl.acm.org/doi/10.1145/3772318.3791103"
+  },
+  {
+    "year": 2026,
+    "title": "Next Generation Wearable Haptics Should Balance Virtual and Real-world Fidelity",
+    "authors": "Shan-Yuan Teng, Yudai Tanaka, Alex Mazursky, and Pedro Lopes",
+    "venue": "In Proc. CHI 2026 (full paper)",
+    "topic": "wearable haptics",
+    "description": "This review argues that wearable haptics should be evaluated by two forms of fidelity: how convincingly a device renders virtual touch and how little it interferes with real-world touch. It organizes existing approaches into feel-through, on-demand, relocated, and remote actuators, then outlines design tradeoffs for systems that move seamlessly between virtual and physical tasks.",
+    "image": "/images/wearable-haptics-review.png",
+    "alt": "Comparison of wearable haptic interfaces balancing virtual and real-world touch",
+    "url": "https://dl.acm.org/doi/10.1145/3772318.3790996"
+  },
+  {
+    "year": 2026,
+    "title": "Increasing Input Accuracy of Embodied Devices via Muscle Stimulation",
+    "authors": "Lonnie Chien, Yudai Tanaka, Noor Amin, Jas Brooks, and Pedro Lopes",
+    "venue": "In Proc. CHI 2026 (full paper)",
+    "topic": "muscle stimulation",
+    "description": "This work uses electrical muscle stimulation to physically guide input on embodied devices. By helping the body reach the intended target, the technique improves accuracy while allowing the user to remain actively involved in the movement.",
+    "image": "/images/input-accuracy.png",
+    "alt": "Muscle stimulation improving embodied device input",
+    "url": "https://dl.acm.org/doi/10.1145/3772318.3791134"
+  },
+  {
+    "year": 2025,
+    "title": "Primed Action: Preserving Agency while Accelerating Reaction Time via Subthreshold Brain Stimulation",
+    "authors": "Yudai Tanaka, Hunter Mathews, and Pedro Lopes",
+    "venue": "In Proc. UIST 2025 (full paper)",
+    "topic": "subthreshold brain stimulation",
+    "description": "Primed Action explores whether imperceptible brain stimulation can prepare the motor system before a response is needed. The stimulation accelerates reaction while the user still decides whether and when to act.",
+    "image": "/images/primed-action.png",
+    "alt": "Primed Action subthreshold brain stimulation study",
+    "url": "https://dl.acm.org/doi/10.1145/3746059.3747634"
+  },
+  {
+    "year": 2025,
+    "title": "Vestibular Stimulation Enhances Hand Redirection",
+    "authors": "Kensuke Katori, Yudai Tanaka, Yoichi Ochiai, and Pedro Lopes",
+    "venue": "In Proc. UIST 2025 (full paper)",
+    "topic": "vestibular stimulation",
+    "description": "We stimulate the vestibular system to subtly alter how users perceive their own motion. In virtual reality, this expands hand redirection and allows a smaller physical movement to support a larger virtual interaction.",
+    "image": "/images/vestibular-hand-redirection.jpg",
+    "alt": "Vestibular stimulation hand-redirection experiment",
+    "url": "https://dl.acm.org/doi/10.1145/3746059.3747776"
+  },
+  {
+    "year": 2024,
+    "title": "Haptic Source-Effector: Full-Body Haptics via Non-Invasive Brain Stimulation",
+    "authors": "Yudai Tanaka, Jacob Serfaty, and Pedro Lopes",
+    "venue": "In Proc. CHI 2024 (full paper)",
+    "topic": "brain stimulation",
+    "description": "Haptic Source-Effector produces touch sensations across the body using non-invasive stimulation of the brain rather than actuators placed at every output location. The work investigates a new path toward lightweight, spatially flexible haptics.",
+    "award": "Best Paper Honorable Mention · Best Demo Honorable Mention",
+    "image": "/images/haptic-source-effector.png",
+    "alt": "Haptic Source-Effector research system in use",
+    "url": "https://doi.org/10.1145/3613904.3642483"
+  },
+  {
+    "year": 2024,
+    "title": "Can a Smartwatch Move Your Fingers? Compact and Practical Electrical Muscle Stimulation in a Smartwatch",
+    "authors": "Akifumi Takahashi, Yudai Tanaka, Archit Tamhane, Alan Shen, Shan-Yuan Teng, and Pedro Lopes",
+    "venue": "In Proc. UIST 2024 (full paper)",
+    "topic": "wearable muscle stimulation",
+    "description": "This project integrates practical electrical muscle stimulation into a smartwatch-sized form factor. The device can move individual fingers while remaining compact enough to resemble an everyday wearable.",
+    "award": "Best Paper Honorable Mention · top 2%",
+    "image": "/images/smartwatch-fingers.png",
+    "alt": "Compact muscle stimulation hardware in a smartwatch",
+    "url": "https://dl.acm.org/doi/10.1145/3654777.3676373"
+  },
+  {
+    "year": 2024,
+    "title": "ReaWristic: Remote Touch Sensation to Fingers from a Wristband via Visually Augmented Electro-Tactile Feedback",
+    "authors": "Yudai Tanaka, Neil Weiss, Robert Cole Bolger-Cruz, Jess Hartcher-O’Brien, Brendan Flynn, Roger Boldu, and Nicholas Colonnese",
+    "venue": "In Proc. ISMAR 2024 (full paper)",
+    "topic": "wrist-to-finger touch",
+    "description": "ReaWristic delivers electro-tactile feedback at the wrist and visually redirects the sensation toward individual fingers. This approach creates finger-specific touch experiences without placing hardware on the hand.",
+    "image": "/images/reawristic.png",
+    "alt": "ReaWristic wristband delivering remote touch sensation",
+    "url": "https://ieeexplore.ieee.org/document/10765490"
+  },
+  {
+    "year": 2023,
+    "title": "Full-Hand Electro-Tactile Feedback without Obstructing Palmar Side of Hand",
+    "authors": "Yudai Tanaka, Alan Shen, Andy Kong, and Pedro Lopes",
+    "venue": "In Proc. CHI 2023 (full paper)",
+    "topic": "electro-tactile feedback",
+    "description": "This wearable system creates tactile sensations across the full hand using electrodes placed away from the palm. Users can still grasp objects and touch surfaces naturally while receiving spatial feedback.",
+    "award": "Best Paper · top 1%",
+    "image": "/images/full-hand-electrotactile.png",
+    "alt": "Full-hand electro-tactile feedback prototype",
+    "url": "https://dl.acm.org/doi/10.1145/3544548.3581382"
+  },
+  {
+    "year": 2023,
+    "title": "Interactive Benefits from Switching Electrical to Magnetic Muscle Stimulation",
+    "authors": "Yudai Tanaka, Akifumi Takahashi, and Pedro Lopes",
+    "venue": "In Proc. UIST 2023 (full paper)",
+    "topic": "magnetic stimulation",
+    "description": "We compare electrical and magnetic approaches to muscle stimulation as tools for interaction. Magnetic stimulation enables contact-free actuation through clothing and suggests new ways to make body-based interfaces easier to wear.",
+    "image": "/images/magnetic-muscle-stimulation.png",
+    "alt": "Interactive magnetic muscle stimulation prototype",
+    "url": "https://dl.acm.org/doi/10.1145/3586183.3606812"
+  },
+  {
+    "year": 2022,
+    "title": "Electrical Head Actuation: Enabling Interactive Systems to Directly Manipulate Head Orientation",
+    "authors": "Yudai Tanaka, Jun Nishida, and Pedro Lopes",
+    "venue": "In Proc. CHI 2022 (full paper)",
+    "topic": "head actuation",
+    "description": "Electrical Head Actuation uses muscle stimulation to turn a user’s head toward interactive targets. The project examines direct physical guidance for attention, training, and immersive experiences.",
+    "award": "Best Demo",
+    "image": "/images/electrical-head-actuation.png",
+    "alt": "Electrical head actuation research system",
+    "url": "https://dl.acm.org/doi/10.1145/3491102.3501910"
+  }
+]

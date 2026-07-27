@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Yudai Tanaka",
+    "title": "Assistant Professor (PI)",
+    "image": "/images/yudai-tanaka.jpg",
+    "alt": "Yudai Tanaka",
+    "website": "https://yudai-tanaka.com/"
+  },
+  {
+    "name": "Muhammad Zubair",
+    "title": "Postdoc",
+    "image": "/images/muhammad-zubair.png",
+    "alt": "Muhammad Zubair",
+    "website": "https://scholar.google.com/citations?user=opslYrgAAAAJ&hl=en"
+  },
+  {
+    "name": "Xiaohan Huang",
+    "title": "Collaborator",
+    "image": "",
+    "alt": "",
+    "website": "",
+    "placeholderTone": "blue"
+  },
+  {
+    "name": "Interested in joining?",
+    "title": "Please submit the research interest form!",
+    "image": "",
+    "alt": "",
+    "website": "https://forms.gle/WMbb7NYts1fX5BYG7",
+    "placeholderTone": "green"
+  }
+]
