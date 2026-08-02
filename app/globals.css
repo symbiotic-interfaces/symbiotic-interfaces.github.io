@@ -61,35 +61,15 @@ a:focus-visible,
 }
 
 .arrow-icon {
+  background-color: currentColor;
   display: inline-block;
   flex: 0 0 auto;
-  height: 0.78em;
-  position: relative;
-  vertical-align: -0.02em;
-  width: 0.78em;
-}
-
-.arrow-icon::before {
-  background: currentColor;
-  content: "";
-  height: 1.5px;
-  left: -0.03em;
-  position: absolute;
-  top: calc(50% - 0.75px);
-  transform: rotate(-45deg);
-  transform-origin: center;
-  width: 1.02em;
-}
-
-.arrow-icon::after {
-  border-right: 1.5px solid currentColor;
-  border-top: 1.5px solid currentColor;
-  content: "";
-  height: 0.42em;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 0.42em;
+  height: 0.9em;
+  margin-left: 0.08em;
+  mask: url("/images/external-link-arrow.svg") center / contain no-repeat;
+  vertical-align: -0.04em;
+  width: 0.9em;
+  -webkit-mask: url("/images/external-link-arrow.svg") center / contain no-repeat;
 }
 
 img {
