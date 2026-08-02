@@ -7,5 +7,5 @@
     ".next/types/**/*.ts",
     "content/**/*.json"
   ],
-  "exclude": ["node_modules", "build", "worker", "vite.config.ts"]
+  "exclude": ["node_modules"]
 }

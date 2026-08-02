@@ -27,5 +27,5 @@ npm run lint
 npm test
 ```
 
-The site is configured for a future Sites deployment through
-`.openai/hosting.json`, but no hosting step is required for local development.
+Pushing the `main` branch to GitHub automatically publishes the site through
+GitHub Pages.
