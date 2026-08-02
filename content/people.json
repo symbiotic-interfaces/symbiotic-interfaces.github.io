@@ -9,17 +9,16 @@
   {
     "name": "Muhammad Zubair",
     "title": "Postdoc",
-    "image": "/images/muhammad-zubair.png",
+    "image": "/images/muhammad-zubair.jpeg",
     "alt": "Muhammad Zubair",
-    "website": "https://scholar.google.com/citations?user=opslYrgAAAAJ&hl=en"
+    "website": "https://zubair-research.github.io/"
   },
   {
     "name": "Xiaohan Huang",
     "title": "Collaborator",
-    "image": "",
-    "alt": "",
-    "website": "",
-    "placeholderTone": "blue"
+    "image": "xiaohan-huang.jpeg",
+    "alt": "Xiaohan Huang",
+    "website": "https://scholar.google.com/citations?user=2-4WT2gAAAAJ",
   },
   {
     "name": "Interested in joining?",
