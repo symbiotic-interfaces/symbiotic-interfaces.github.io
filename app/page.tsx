@@ -46,7 +46,7 @@ const researchByYear = Array.from(
 ).sort(([yearA], [yearB]) => yearB - yearA);
 
 function Arrow() {
-  return <span aria-hidden="true">↗</span>;
+  return <span className="arrow-icon" aria-hidden="true" />;
 }
 
 function Publication({ project }: { project: ResearchItem }) {
