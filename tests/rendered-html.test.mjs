@@ -16,6 +16,10 @@ test("exports the lab homepage", async () => {
     html,
     /<meta property="og:url" content="https:\/\/symbiotic-interfaces\.cs\.utexas\.edu\/"/i,
   );
+  assert.match(
+    html,
+    /<meta name="google-site-verification" content="RA4wnLDJLMek9w0TQalFbRDaGNw49UYTVV9_Sir9j44"/i,
+  );
   assert.match(html, /application\/ld\+json/i);
   assert.match(html, /"@type":"Organization"/i);
   assert.match(

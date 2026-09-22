@@ -59,6 +59,9 @@ export const metadata: Metadata = {
     "UT Austin",
     "Yudai Tanaka",
   ],
+  verification: {
+    google: "RA4wnLDJLMek9w0TQalFbRDaGNw49UYTVV9_Sir9j44",
+  },
   icons: {
     icon: "/images/symbiotic-interfaces-square.png",
     shortcut: "/images/symbiotic-interfaces-square.png",
