@@ -1,26 +1,38 @@
 [
   {
+    "date": "2026.09",
+    "title": "Yudai is serving on the CHI 2027 program committee as an AC",
+    "note": "",
+    "url": ""
+  },
+  {
+    "date": "2026.07",
+    "title": "Dr. Muhammad Zubair is joining the lab as a postdoc!",
+    "note": "",
+    "url": ""
+  },
+  {
     "date": "2026.01",
     "title": "Three papers accepted to CHI 2026",
-    "note": "Action acceleration · embodied input · wearable haptics",
+    "note": "",
     "url": ""
   },
   {
     "date": "2025.10",
     "title": "Yudai named a 2025 Google PhD Fellow",
-    "note": "Human-computer interaction",
+    "note": "",
     "url": ""
   },
   {
     "date": "2025.09",
-    "title": "Yudai selected as a Siebel Scholar",
-    "note": "Class of 2026",
+    "title": "Yudai was selected as a Siebel Scholar",
+    "note": "",
     "url": ""
   },
   {
     "date": "2025.07",
     "title": "Two papers accepted to UIST 2025",
-    "note": "Primed Action · Vestibular Hand Redirection",
+    "note": "",
     "url": ""
   }
 ]
