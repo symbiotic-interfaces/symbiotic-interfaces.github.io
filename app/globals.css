@@ -296,11 +296,6 @@ img {
 
 .publication-image img {
   object-fit: cover;
-  transition: transform 320ms ease;
-}
-
-.publication:hover .publication-image img {
-  transform: scale(1.022);
 }
 
 .publication-copy {
@@ -328,15 +323,6 @@ img {
   margin: 11px 0 0;
 }
 
-.publication h4 a:hover {
-  color: var(--accent);
-}
-
-.publication h4 span {
-  font-size: 0.72em;
-  white-space: nowrap;
-}
-
 .publication-description {
   font-size: clamp(0.94rem, 1.06vw, 1.08rem);
   line-height: 1.58;
@@ -355,6 +341,35 @@ img {
   font-size: 0.69rem;
   font-weight: 500;
   margin: 6px 0 0;
+}
+
+.publication-resources {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  margin-top: 18px;
+}
+
+.publication-resource {
+  align-items: center;
+  border-bottom: 1px solid transparent;
+  display: inline-flex;
+  font-size: 0.78rem;
+  font-weight: 500;
+  gap: 7px;
+  padding-bottom: 3px;
+}
+
+.publication-resource:hover {
+  border-bottom-color: var(--accent);
+  color: var(--accent);
+}
+
+.publication-resource-icon {
+  flex: 0 0 auto;
+  height: 20px;
+  width: 20px;
 }
 
 .people {

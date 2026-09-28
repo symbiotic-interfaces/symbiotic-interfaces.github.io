@@ -14,7 +14,14 @@ type ResearchItem = {
   award?: string;
   image: string;
   alt: string;
+  resources?: ResearchResource[];
+};
+
+type ResearchResource = {
+  type: string;
+  label: string;
   url: string;
+  icon?: string;
 };
 
 type Person = {
@@ -49,38 +56,73 @@ function Arrow() {
   return <span className="arrow-icon" aria-hidden="true" />;
 }
 
+const resourceIcons: Record<string, string> = {
+  paper: "/images/resource-icons/paper.svg",
+  video: "/images/resource-icons/video.svg",
+  publication: "/images/resource-icons/publication.svg",
+  talk: "/images/resource-icons/talk.svg",
+};
+
+function ResourceLinks({ project }: { project: ResearchItem }) {
+  if (!project.resources?.length) {
+    return null;
+  }
+
+  return (
+    <nav
+      className="publication-resources"
+      aria-label={`Resources for ${project.title}`}
+    >
+      {project.resources.map((resource) => (
+        <a
+          className="publication-resource"
+          href={resource.url}
+          key={`${resource.type}-${resource.label}`}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Image
+            className="publication-resource-icon"
+            src={
+              resource.icon ||
+              resourceIcons[resource.type.toLowerCase()] ||
+              "/images/resource-icons/link.svg"
+            }
+            alt=""
+            width={20}
+            height={20}
+            aria-hidden="true"
+          />
+          <span>{resource.label}</span>
+        </a>
+      ))}
+    </nav>
+  );
+}
+
 function Publication({ project }: { project: ResearchItem }) {
   return (
     <article className="publication">
-      <a
-        className="publication-image"
-        href={project.url}
-        target="_blank"
-        rel="noreferrer"
-        aria-label={`Open publication: ${project.title}`}
-      >
+      <div className="publication-image">
         <Image
           src={project.image}
           alt={project.alt}
           fill
           sizes="(max-width: 720px) 100vw, 38vw"
         />
-      </a>
+      </div>
       <div className="publication-copy">
         <div className="publication-meta">
           <span>{project.venue}</span>
           <span>{project.topic}</span>
         </div>
-        <h4>
-          <a href={project.url} target="_blank" rel="noreferrer">
-            {project.title} <Arrow />
-          </a>
-        </h4>
+        <h4>{project.title}</h4>
         <p className="publication-authors">{project.authors}.</p>
         <p className="publication-description">{project.description}</p>
         {project.award && (
           <p className="publication-award">{project.award}</p>
         )}
+        <ResourceLinks project={project} />
       </div>
     </article>
   );

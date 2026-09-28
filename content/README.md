@@ -34,11 +34,35 @@ year headings.
   "award": "Optional award",
   "image": "/images/project-image.jpg",
   "alt": "A concise description of the project image",
-  "url": "https://doi.org/example"
+  "resources": [
+    { "type": "paper", "label": "Paper", "url": "/papers/project-paper.pdf" },
+    { "type": "video", "label": "Video", "url": "https://youtu.be/example" },
+    { "type": "publication", "label": "Publication", "url": "https://dl.acm.org/doi/example" },
+    { "type": "talk", "label": "Talk", "url": "https://youtu.be/example" }
+  ]
 }
 ```
 
-The optional `award` line can be removed.
+The optional `award` line can be removed. Resource links can also be omitted
+when that resource does not exist. Put paper PDFs in `public/papers/` and use a
+URL beginning with `/papers/` so the lab website hosts the file.
+
+The built-in resource types `paper`, `video`, `publication`, and `talk` receive
+their matching icons automatically. To add any other resource type without
+editing the website code, add its SVG icon to `public/images/resource-icons/`
+and include an `icon` field:
+
+```json
+{
+  "type": "slides",
+  "label": "Slides",
+  "url": "/slides/project-slides.pdf",
+  "icon": "/images/resource-icons/slides.svg"
+}
+```
+
+If a custom resource does not specify an icon, the website displays a generic
+link icon.
 
 ## Header slides
 

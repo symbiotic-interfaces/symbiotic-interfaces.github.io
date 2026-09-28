@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { readFile, stat } from "node:fs/promises";
 import test from "node:test";
 
 test("exports the lab homepage", async () => {
@@ -29,8 +29,56 @@ test("exports the lab homepage", async () => {
   assert.match(html, /id="team"/);
   assert.match(html, /id="news"/);
   assert.match(html, /id="research"/);
+  assert.match(html, /class="publication-resources"/);
+  assert.match(html, /href="\/papers\/myo-action\.pdf"/);
+  assert.match(html, />Paper<\/span>/);
+  assert.match(html, />Video<\/span>/);
+  assert.match(html, />Publication<\/span>/);
+  assert.match(html, />Talk<\/span>/);
+  assert.doesNotMatch(html, /Open publication:/);
   assert.match(html, /Submit the research interest form/);
   assert.doesNotMatch(html, /Your site is taking shape|codex-preview/i);
+});
+
+test("includes every locally hosted research paper", async () => {
+  const paperFiles = [
+    "electrical-head-actuation.pdf",
+    "full-hand-electrotactile.pdf",
+    "haptic-source-effector.pdf",
+    "input-accuracy.pdf",
+    "magnetic-muscle-stimulation.pdf",
+    "myo-action.pdf",
+    "primed-action.pdf",
+    "reawristic.pdf",
+    "smartwatch-muscle-stimulation.pdf",
+    "vestibular-stimulation.pdf",
+    "wearable-haptics.pdf",
+  ];
+
+  await Promise.all(
+    paperFiles.map(async (filename) => {
+      const file = await stat(
+        new URL(`../out/papers/${filename}`, import.meta.url),
+      );
+      assert.ok(file.size > 0, `${filename} should not be empty`);
+    }),
+  );
+});
+
+test("only first-author papers include talk links", async () => {
+  const projects = JSON.parse(
+    await readFile(new URL("../content/research.json", import.meta.url), "utf8"),
+  );
+
+  for (const project of projects) {
+    if (project.authors.startsWith("Yudai Tanaka")) continue;
+
+    assert.equal(
+      project.resources.some((resource) => resource.type === "talk"),
+      false,
+      `${project.title} should not include a talk link`,
+    );
+  }
 });
 
 test("exports crawler discovery files", async () => {

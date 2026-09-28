@@ -8,7 +8,12 @@
     "description": "Myo Action detects the earliest muscle activity before visible movement begins, then uses electrical muscle stimulation to accelerate the action the user already intended. The system shortens reaction time while preserving voluntary control.",
     "image": "/images/myo-action.png",
     "alt": "Myo Action electromyography and muscle stimulation study",
-    "url": "https://dl.acm.org/doi/10.1145/3772318.3791103"
+    "resources": [
+      { "type": "paper", "label": "Paper", "url": "/papers/myo-action.pdf" },
+      { "type": "video", "label": "Video", "url": "https://youtu.be/M0EVjipRmPU" },
+      { "type": "publication", "label": "Publication", "url": "https://dl.acm.org/doi/10.1145/3772318.3791103" },
+      { "type": "talk", "label": "Talk", "url": "https://www.youtube.com/watch?v=oZWaMaBYOgo" }
+    ]
   },
   {
     "year": 2026,
@@ -19,7 +24,10 @@
     "description": "This review argues that wearable haptics should be evaluated by two forms of fidelity: how convincingly a device renders virtual touch and how little it interferes with real-world touch. It organizes existing approaches into feel-through, on-demand, relocated, and remote actuators, then outlines design tradeoffs for systems that move seamlessly between virtual and physical tasks.",
     "image": "/images/wearable-haptics-review.png",
     "alt": "Comparison of wearable haptic interfaces balancing virtual and real-world touch",
-    "url": "https://dl.acm.org/doi/10.1145/3772318.3790996"
+    "resources": [
+      { "type": "paper", "label": "Paper", "url": "/papers/wearable-haptics.pdf" },
+      { "type": "publication", "label": "Publication", "url": "https://dl.acm.org/doi/10.1145/3772318.3790996" }
+    ]
   },
   {
     "year": 2026,
@@ -30,7 +38,11 @@
     "description": "This work uses electrical muscle stimulation to physically guide input on embodied devices. By helping the body reach the intended target, the technique improves accuracy while allowing the user to remain actively involved in the movement.",
     "image": "/images/input-accuracy.png",
     "alt": "Muscle stimulation improving embodied device input",
-    "url": "https://dl.acm.org/doi/10.1145/3772318.3791134"
+    "resources": [
+      { "type": "paper", "label": "Paper", "url": "/papers/input-accuracy.pdf" },
+      { "type": "video", "label": "Video", "url": "https://www.youtube.com/watch?v=PBqnaxGNOj0" },
+      { "type": "publication", "label": "Publication", "url": "https://dl.acm.org/doi/10.1145/3772318.3791134" }
+    ]
   },
   {
     "year": 2025,
@@ -41,7 +53,12 @@
     "description": "Primed Action explores whether imperceptible brain stimulation can prepare the motor system before a response is needed. The stimulation accelerates reaction while the user still decides whether and when to act.",
     "image": "/images/primed-action.png",
     "alt": "Primed Action subthreshold brain stimulation study",
-    "url": "https://dl.acm.org/doi/10.1145/3746059.3747634"
+    "resources": [
+      { "type": "paper", "label": "Paper", "url": "/papers/primed-action.pdf" },
+      { "type": "video", "label": "Video", "url": "https://www.youtube.com/watch?v=FpyPQ6JZDWM" },
+      { "type": "publication", "label": "Publication", "url": "https://dl.acm.org/doi/10.1145/3746059.3747634" },
+      { "type": "talk", "label": "Talk", "url": "https://youtu.be/ur-O6NihVY8" }
+    ]
   },
   {
     "year": 2025,
@@ -52,7 +69,11 @@
     "description": "We stimulate the vestibular system to subtly alter how users perceive their own motion. In virtual reality, this expands hand redirection and allows a smaller physical movement to support a larger virtual interaction.",
     "image": "/images/vestibular-hand-redirection.jpg",
     "alt": "Vestibular stimulation hand-redirection experiment",
-    "url": "https://dl.acm.org/doi/10.1145/3746059.3747776"
+    "resources": [
+      { "type": "paper", "label": "Paper", "url": "/papers/vestibular-stimulation.pdf" },
+      { "type": "video", "label": "Video", "url": "https://www.youtube.com/watch?v=tpcovBqYYAo" },
+      { "type": "publication", "label": "Publication", "url": "https://dl.acm.org/doi/10.1145/3746059.3747776" }
+    ]
   },
   {
     "year": 2024,
@@ -64,7 +85,12 @@
     "award": "Best Paper Honorable Mention · Best Demo Honorable Mention",
     "image": "/images/haptic-source-effector.png",
     "alt": "Haptic Source-Effector research system in use",
-    "url": "https://doi.org/10.1145/3613904.3642483"
+    "resources": [
+      { "type": "paper", "label": "Paper", "url": "/papers/haptic-source-effector.pdf" },
+      { "type": "video", "label": "Video", "url": "https://www.youtube.com/watch?v=-Y61l38F81s" },
+      { "type": "publication", "label": "Publication", "url": "https://dl.acm.org/doi/10.1145/3613904.3642483" },
+      { "type": "talk", "label": "Talk", "url": "https://www.youtube.com/watch?v=fLbj_r3SCtk" }
+    ]
   },
   {
     "year": 2024,
@@ -76,7 +102,11 @@
     "award": "Best Paper Honorable Mention · top 2%",
     "image": "/images/smartwatch-fingers.png",
     "alt": "Compact muscle stimulation hardware in a smartwatch",
-    "url": "https://dl.acm.org/doi/10.1145/3654777.3676373"
+    "resources": [
+      { "type": "paper", "label": "Paper", "url": "/papers/smartwatch-muscle-stimulation.pdf" },
+      { "type": "video", "label": "Video", "url": "https://www.youtube.com/watch?v=20OZ2aFdwXc" },
+      { "type": "publication", "label": "Publication", "url": "https://dl.acm.org/doi/10.1145/3654777.3676373" }
+    ]
   },
   {
     "year": 2024,
@@ -87,7 +117,11 @@
     "description": "ReaWristic delivers electro-tactile feedback at the wrist and visually redirects the sensation toward individual fingers. This approach creates finger-specific touch experiences without placing hardware on the hand.",
     "image": "/images/reawristic.png",
     "alt": "ReaWristic wristband delivering remote touch sensation",
-    "url": "https://ieeexplore.ieee.org/document/10765490"
+    "resources": [
+      { "type": "paper", "label": "Paper", "url": "/papers/reawristic.pdf" },
+      { "type": "video", "label": "Video", "url": "https://youtu.be/00LsiLrTP9s" },
+      { "type": "publication", "label": "Publication", "url": "https://ieeexplore.ieee.org/document/10765490" }
+    ]
   },
   {
     "year": 2023,
@@ -99,7 +133,12 @@
     "award": "Best Paper · top 1%",
     "image": "/images/full-hand-electrotactile.png",
     "alt": "Full-hand electro-tactile feedback prototype",
-    "url": "https://dl.acm.org/doi/10.1145/3544548.3581382"
+    "resources": [
+      { "type": "paper", "label": "Paper", "url": "/papers/full-hand-electrotactile.pdf" },
+      { "type": "video", "label": "Video", "url": "https://youtu.be/q6G8Htzq_gQ" },
+      { "type": "publication", "label": "Publication", "url": "https://dl.acm.org/doi/10.1145/3544548.3581382" },
+      { "type": "talk", "label": "Talk", "url": "https://www.youtube.com/watch?v=jRhWl5A9Cso" }
+    ]
   },
   {
     "year": 2023,
@@ -110,7 +149,12 @@
     "description": "We compare electrical and magnetic approaches to muscle stimulation as tools for interaction. Magnetic stimulation enables contact-free actuation through clothing and suggests new ways to make body-based interfaces easier to wear.",
     "image": "/images/magnetic-muscle-stimulation.png",
     "alt": "Interactive magnetic muscle stimulation prototype",
-    "url": "https://dl.acm.org/doi/10.1145/3586183.3606812"
+    "resources": [
+      { "type": "paper", "label": "Paper", "url": "/papers/magnetic-muscle-stimulation.pdf" },
+      { "type": "video", "label": "Video", "url": "https://youtu.be/i8CHVqIF-bc" },
+      { "type": "publication", "label": "Publication", "url": "https://dl.acm.org/doi/10.1145/3586183.3606812" },
+      { "type": "talk", "label": "Talk", "url": "https://www.youtube.com/watch?v=Zh0NIeWJL5A&t=9s" }
+    ]
   },
   {
     "year": 2022,
@@ -122,6 +166,11 @@
     "award": "Best Demo",
     "image": "/images/electrical-head-actuation.png",
     "alt": "Electrical head actuation research system",
-    "url": "https://dl.acm.org/doi/10.1145/3491102.3501910"
+    "resources": [
+      { "type": "paper", "label": "Paper", "url": "/papers/electrical-head-actuation.pdf" },
+      { "type": "video", "label": "Video", "url": "https://youtu.be/vqpH9gNGpts" },
+      { "type": "publication", "label": "Publication", "url": "https://dl.acm.org/doi/10.1145/3491102.3501910" },
+      { "type": "talk", "label": "Talk", "url": "https://youtu.be/POlk_UGLo8U" }
+    ]
   }
 ]
